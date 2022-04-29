@@ -1,2 +1,6 @@
+---
+# System/Server hostname
 hostname: "{{ ansible_fqdn }}"
+
+# Array of hostname aliases
 hostname_aliases: []
