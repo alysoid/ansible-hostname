@@ -1,4 +1,4 @@
-# [Catena](https://github.com/alysoid/catena) - Hostname Ansible Role
+# [Catena](https://github.com/alysoid/catena) Ansible Role: hostname
 
 Manage hostname and `/etc/hosts` file accordingly via Ansible.
 
