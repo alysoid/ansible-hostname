@@ -4,7 +4,7 @@ Manage hostname and `/etc/hosts` file accordingly via Ansible.
 
 ## Role default variables
 
-| Variable           | Default            | Info
-| ------------------ | ------------------ | --------------------------------------
-| `hostname`         | {{ ansible_fqdn }} | Machine/Server hostname
-| `hostname_aliases` | []                 | Array of hostname aliases
+| Variable           | Default              | Info                      |
+| ------------------ | -------------------- | ------------------------- |
+| `hostname`         | `{{ ansible_fqdn }}` | System/Server hostname    |
+| `hostname_aliases` | `[]`                 | Array of hostname aliases |
